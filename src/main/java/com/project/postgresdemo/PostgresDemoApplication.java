@@ -1,13 +1,13 @@
-package com.project.postgredemo;
+package com.project.postgresdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PostgreDemoApplication {
+public class PostgresDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PostgreDemoApplication.class, args);
+		SpringApplication.run(PostgresDemoApplication.class, args);
 	}
 
 }
