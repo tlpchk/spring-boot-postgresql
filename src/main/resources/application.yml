@@ -7,3 +7,5 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     ddl-auto: none
     show-sql: true
+    # enable @Lob (large object)
+    properties.hibernate.jdbc.lob.non_contextual_creation: true
